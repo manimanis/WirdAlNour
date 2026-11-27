@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">ورد النور</string>
+    <string name="app_subtitle">من سورة الملك إلى سورة الناس • ١٤ يوماً</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">اليوم</string>
+    <string name="nav_plan">الخطة</string>
+    <string name="nav_reminder">التذكير</string>
+
+    <!-- Today Screen -->
+    <string name="bismillah_greeting">بسم الله الرحمن الرحيم</string>
+    <string name="today_wird_title">ورد اليوم</string>
+    <string name="day_label_format">اليوم %1$s من ١٤</string>
+    <string name="day_short_format">اليوم %1$s</string>
+    <string name="today_badge">اليوم الحالي</string>
+    <string name="completed_badge">مكتمل</string>
+    <string name="remaining_badge">قيد القراءة</string>
+    <string name="surah_prefix">سورة %1$s</string>
+    <string name="ayah_count_format">%1$s آية</string>
+    <string name="page_format">ص %1$s</string>
+    <string name="juz_format">الجزء %1$s</string>
+    <string name="reading_time_format">نحو %1$s دقائق</string>
+    <string name="mark_day_complete">إتمام ورد اليوم</string>
+    <string name="day_completed_message">تقبّل الله تلاوتك، أتممت ورد هذا اليوم</string>
+    <string name="unmark_day_complete">إلغاء إتمام اليوم</string>
+    <string name="surahs_section_title">سور هذا اليوم</string>
+    <string name="short_surahs_note">مجموعة قصار السور الموزعة بتوازن لإتمام الختمة في ١٤ يوماً</string>
+
+    <!-- Surah Detail Sheet -->
+    <string name="surah_details_title">تفاصيل السورة</string>
+    <string name="surah_completed_action">تمت القراءة</string>
+    <string name="surah_mark_read_action">تحديد كمقروءة</string>
+    <string name="reflection_note_label">ملاحظة وتدبر</string>
+    <string name="reflection_note_placeholder">أضف خاطرة أو فائدة من تلاوة السورة...</string>
+    <string name="save_note_action">حفظ الملاحظة</string>
+    <string name="assign_day_label">تعديل اليوم المخصص ضمن الخطة</string>
+    <string name="previous_day_cd">نقل إلى اليوم السابق</string>
+    <string name="next_day_cd">نقل إلى اليوم التالي</string>
+    <string name="close_cd">إغلاق</string>
+
+    <!-- Plan & Progress Screen -->
+    <string name="plan_screen_title">خطة ١٤ يوماً</string>
+    <string name="progress_overview_title">مسيرة التلاوة</string>
+    <string name="surahs_progress_label">السور المقروءة</string>
+    <string name="ayahs_progress_label">الآيات المقروءة</string>
+    <string name="days_progress_label">الأيام المكتملة</string>
+    <string name="streak_label">سلسلة الإنجاز</string>
+    <string name="cycles_completed_label">ختمات مكتملة</string>
+    <string name="juz_tabarak_label">جزء تبارك (٢٩)</string>
+    <string name="juz_amma_label">جزء عمّ (٣٠)</string>
+    <string name="heatmap_title">خريطة الأيام الأربعة عشر</string>
+    <string name="schedule_list_title">جدول السور اليومي</string>
+    <string name="start_new_cycle_action">بدء ختمة جديدة</string>
+    <string name="reset_distribution_action">إعادة التوزيع الافتراضي</string>
+    <string name="new_cycle_dialog_title">بدء ختمة جديدة؟</string>
+    <string name="new_cycle_dialog_body">سيتم تصفير علامات القراءة والبدء من اليوم الأول لخطة ١٤ يوماً جديدة. عند إتمام الختمة كاملة يُضاف ذلك إلى سجل ختماتك.</string>
+    <string name="reset_dist_dialog_title">استعادة التوزيع الافتراضي؟</string>
+    <string name="reset_dist_dialog_body">سيتم إعادة توزيع السور الـ ٤٨ من الملك إلى الناس وفق التوزيع المتوازن على ١٤ يوماً مع الحفاظ على السور المقروءة.</string>
+    <string name="confirm_action">تأكيد</string>
+    <string name="cancel_action">إلغاء</string>
+    <string name="khatmah_celebration_title">مبارك إتمام الختمة</string>
+    <string name="khatmah_celebration_body">أتممت بحمد الله قراءة جميع السور من سورة الملك إلى سورة الناس خلال خطة ١٤ يوماً.</string>
+
+    <!-- Reminder & Settings Screen -->
+    <string name="reminder_screen_title">التذكير والإعدادات</string>
+    <string name="daily_reminder_title">التذكير اليومي بالورد</string>
+    <string name="daily_reminder_subtitle">إشعار هادئ يومياً في الوقت الذي تختاره لتذكيرك بتلاوة وردك</string>
+    <string name="reminder_enabled_status">التذكير مفعّل يومياً</string>
+    <string name="reminder_disabled_status">التذكير غير مفعّل</string>
+    <string name="reminder_time_label">وقت التذكير اليومي</string>
+    <string name="change_time_action">تغيير الوقت</string>
+    <string name="quick_times_label">أوقات مقترحة</string>
+    <string name="preset_fajr">بعد الفجر</string>
+    <string name="preset_duha">الضحى</string>
+    <string name="preset_asr">بعد العصر</string>
+    <string name="preset_night">قبل النوم</string>
+    <string name="test_notification_action">إرسال إشعار تجريبي</string>
+    <string name="test_notification_sent">تم إرسال إشعار تجريبي بنجاح</string>
+    <string name="notification_permission_denied">لإرسال التذكير اليومي، يرجى السماح بإذن الإشعارات للتطبيق.</string>
+    <string name="grant_permission_action">منح الإذن</string>
+    <string name="time_picker_title">اختر وقت التذكير</string>
+    <string name="save_time_action">حفظ الوقت</string>
+
+    <!-- Appearance & Info -->
+    <string name="appearance_section_title">المظهر ووضع القراءة الليلي</string>
+    <string name="night_mode_subtitle">ألوان أزرق داكن ورمادي غامق مريحة للعين أثناء القراءة ليلاً</string>
+    <string name="toggle_night_mode_cd">تبديل وضع القراءة الليلي</string>
+    <string name="theme_system">تلقائي</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">ليلي</string>
+    <string name="about_plan_title">عن خطة الورد</string>
+    <string name="about_plan_body">تشمل هذه الخطة جزء تبارك وجزء عمّ كاملَين (٤٨ سورة و٩٩٥ آية)، موزّعة بعناية على ١٤ يوماً لتجمع بين السكينة والاستمرارية.</string>
+
+    <!-- Notification Channel & Content -->
+    <string name="notif_channel_name">التذكير اليومي بالورد</string>
+    <string name="notif_channel_desc">إشعارات التذكير اليومي لقراءة الورد القرآني من سورة الملك إلى الناس</string>
+    <string name="notif_title">حان وقت وردك اليومي</string>
+    <string name="notif_body">لا تنسَ تلاوة ورد اليوم من سورة الملك إلى الناس. بارك الله في وقتك وتلاوتك.</string>
+    <string name="notif_dynamic_title_format">ورد اليوم %1$s — حان وقت التلاوة</string>
+    <string name="notif_encouragement_suffix">بارك الله في وقتك وثبّتك على الورد.</string>
+    <string name="notif_khatmah_done_title">مبارك إتمام الختمة</string>
+    <string name="notif_khatmah_done_body">أتممت بفضل الله جميع سور خطة ١٤ يوماً. يمكنك بدء ختمة جديدة من التطبيق.</string>
+    <string name="notif_open_wird_action">قراءة الورد</string>
+    <string name="next_reminder_today_format">التذكير القادم: اليوم الساعة %1$s</string>
+    <string name="next_reminder_tomorrow_format">التذكير القادم: غداً الساعة %1$s</string>
+    <string name="reminder_preview_label">معاينة محتوى التذكير</string>
+
+    <!-- Surah Reader Screen -->
+    <string name="bismillah_text">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</string>
+    <string name="loading_surah_text">جارٍ تحميل آيات السورة...</string>
+    <string name="surah_load_error">تعذّر تحميل نص السورة. تأكد من اتصالك بالإنترنت ثم أعد المحاولة.</string>
+    <string name="retry_action">إعادة المحاولة</string>
+    <string name="mushaf_view_mode">عرض المصحف</string>
+    <string name="verses_view_mode">آية بآية</string>
+    <string name="next_surah_action">السورة التالية</string>
+    <string name="surah_read_completed">تمّت تلاوة السورة</string>
+    <string name="mark_surah_as_read">إتمام قراءة السورة</string>
+    <string name="back_cd">رجوع</string>
+    <string name="surah_info_cd">تفاصيل السورة والملاحظات</string>
+    <string name="font_size_increase_cd">تكبير الخط</string>
+    <string name="font_size_decrease_cd">تصغير الخط</string>
+    <string name="font_size_label">حجم الخط</string>
+    <string name="quran_font_size_title">خط القرآن وحجمه</string>
+    <string name="quran_font_family_label">اختر نوع الخط</string>
+    <string name="quran_font_picker_title">اختر خط المصحف</string>
+    <string name="quran_font_picker_subtitle">خطوط عربية أصيلة تجمع بين الجمال وسهولة القراءة</string>
+    <string name="quran_font_picker_cd">اختيار نوع خط القرآن</string>
+    <string name="quran_font_preview_sample">تَبَـٰرَكَ ٱلَّذِى بِيَدِهِ ٱلْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ</string>
+    <string name="sadaqallah_footer">صدق الله العظيم</string>
+
+    <!-- Bookmarks -->
+    <string name="bookmarks_title">العلامات المرجعية</string>
+    <string name="bookmarks_empty_message">لم تضع علامة مرجعية بعد. اضغط على أي آية داخل السورة لحفظها والرجوع إليها لاحقاً.</string>
+    <string name="bookmark_tap_hint">اضغط على أي آية لوضع أو إزالة علامة مرجعية</string>
+    <string name="bookmark_added_format">تم حفظ العلامة المرجعية على الآية %1$s</string>
+    <string name="bookmark_removed_format">تمت إزالة العلامة المرجعية عن الآية %1$s</string>
+    <string name="bookmark_ayah_label_format">سورة %1$s • الآية %2$s</string>
+    <string name="toggle_ayah_bookmark_cd">وضع أو إزالة علامة مرجعية على الآية</string>
+    <string name="open_bookmarks_cd">عرض العلامات المرجعية</string>
+    <string name="remove_bookmark_cd">إزالة العلامة المرجعية</string>
+
+    <!-- Audio Player & Offline Recitations -->
+    <string name="audio_play_cd">تشغيل التلاوة</string>
+    <string name="audio_pause_cd">إيقاف التلاوة مؤقتاً</string>
+    <string name="audio_rewind_cd">ترجيع ١٠ ثوانٍ</string>
+    <string name="audio_forward_cd">تقديم ١٠ ثوانٍ</string>
+    <string name="audio_reciter_label">القارئ</string>
+    <string name="audio_error_message">تعذّر تشغيل التلاوة. تأكد من اتصالك بالإنترنت أو احفظ التلاوة للاستماع دون إنترنت.</string>
+    <string name="audio_buffering_label">جارٍ تحميل التلاوة...</string>
+    <string name="audio_save_action">حفظ</string>
+    <string name="audio_saved_badge">محفوظة</string>
+    <string name="audio_save_cd">حفظ التلاوة على الجهاز للاستماع دون إنترنت</string>
+    <string name="audio_cancel_download_cd">إلغاء تحميل التلاوة</string>
+    <string name="audio_delete_saved_action">حذف التلاوة المحفوظة</string>
+    <string name="audio_delete_saved_dialog_title">حذف التلاوة من الجهاز؟</string>
+    <string name="audio_delete_saved_dialog_body">سيتم حذف ملف التلاوة المحفوظ لهذه السورة من جهازك لتوفير المساحة. يمكنك إعادة حفظها لاحقاً في أي وقت.</string>
+    <string name="audio_download_error_message">تعذّر حفظ التلاوة على الجهاز. تحقق من اتصالك بالإنترنت ثم حاول مجدداً.</string>
+    <string name="offline_section_title">القراءة والتلاوات دون إنترنت</string>
+    <string name="offline_surahs_ready_badge">جميع السور الـ ٤٨ متوفرة للقراءة دون إنترنت</string>
+    <string name="offline_saved_recitations_summary">التلاوات المحفوظة: %1$s سورة • %2$s</string>
+    <string name="offline_no_saved_recitations">لا توجد تلاوات محفوظة على الجهاز بعد</string>
+    <string name="offline_reciter_choose_label">اختر القارئ المفضل للتلاوة والحفظ</string>
+    <string name="offline_download_all_action">حفظ جميع السور (%1$s)</string>
+    <string name="offline_all_downloaded_label">جميع السور الـ ٤٨ محفوظة لهذا القارئ</string>
+    <string name="offline_bulk_downloading_format">جارٍ حفظ السور: %1$s من %2$s</string>
+    <string name="offline_cancel_bulk_action">إيقاف الحفظ</string>
+    <string name="offline_delete_all_action">حذف جميع التلاوات المحفوظة</string>
+    <string name="offline_delete_all_dialog_title">حذف جميع التلاوات المحفوظة؟</string>
+    <string name="offline_delete_all_dialog_body">سيتم حذف جميع ملفات التلاوات المحفوظة على جهازك لتوفير المساحة. ستبقى جميع السور متوفرة للقراءة دون إنترنت.</string>
+    <string name="offline_reciter_count_format">%1$s / ٤٨</string>
+    <string name="audio_sync_basmalah">البسملة</string>
+    <string name="audio_sync_ayah_format">آية %1$s</string>
+    <string name="audio_reciting_now">يُتلى الآن</string>
+    <string name="audio_auto_follow_cd">تفعيل أو إيقاف التمرير التلقائي مع التلاوة</string>
+    <string name="audio_play_from_ayah_cd">الاستماع للتلاوة بدءاً من هذه الآية</string>
+
+    <!-- Accessibility -->
+    <string name="hero_banner_cd">زخرفة هندسية إسلامية لبطاقة الورد اليومي</string>
+    <string name="toggle_surah_cd">تبديل حالة قراءة السورة</string>
+    <string name="progress_ring_cd">مؤشر نسبة الإنجاز الكلي</string>
+</resources>

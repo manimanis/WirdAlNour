@@ -1,0 +1,6 @@
+{
+  "name": "ورد النور",
+  "description": "تطبيق هادئ لتنظيم قراءة القرآن الكريم من سورة الملك إلى سورة الناس خلال ١٤ يوماً مع متابعة التقدم والتذكير اليومي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
